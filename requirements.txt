@@ -351,7 +351,6 @@ comtypes==1.1.9
 conda==4.3.16
 conda-build==2.1.5
 conda-content-trust==0.1.2
-conda-package-handling==1.6.0
 conda-repo-cli==1.0.0
 conda-token==1.2.0
 conda-verify==3.4.2
