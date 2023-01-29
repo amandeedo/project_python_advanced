@@ -84,7 +84,7 @@ gitdb==4.0.10
 GitPython==3.1.30
 html5lib==1.1
 hyperlink==21.0.0
-importlib-metadata==6.0.0
+importlib-metadata
 incremental==22.10.0
 ipykernel==6.19.4
 ipython==8.7.0
@@ -109,7 +109,7 @@ jupyter_server==2.0.6
 jupyter_server_terminals==0.4.3
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.5
-keyring==23.9.1
+keyring
 kiwisolver==1.4.4
 lockfile==0.12.2
 lxml==4.9.2
@@ -123,7 +123,7 @@ more-itertools==8.14.0
 msgpack==1.0.4
 nbclassic==0.4.8
 nbclient==0.7.2
-nbconvert==7.2.7
+nbconvert
 nbformat==5.7.1
 nest-asyncio==1.5.6
 nibabel==4.0.2
