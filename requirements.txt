@@ -345,7 +345,6 @@ brotlipy==0.7.0
 bs4==0.0.1
 catalogue==2.0.8
 chardet==4.0.0
-cloudpickle==1.8.0
 clyent==1.2.2
 colorama==0.4.3
 commonmark==0.9.1
