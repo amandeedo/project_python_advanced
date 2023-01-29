@@ -319,7 +319,7 @@ astropy==4.0.1
 async-generator==1.10
 async-timeout==4.0.2
 atomicwrites==1.4.0
-autopep8==1.7.0
+autopep8
 Babel==2.9.0
 backcall==0.2.0
 backports.functools-lru-cache==1.6.0
@@ -361,8 +361,8 @@ distributed==2.23.0
 docutils==0.16
 et-xmlfile==1.0.1
 fastcache==1.1.0
-flake8==3.8.3
-Flask==1.1.2
-Flask-RESTful==0.3.8
-Flask-SQLAlchemy==2.4.4
-future==0.18.3
+flake8
+Flask
+Flask-RESTful
+Flask-SQLAlchemy
+future
