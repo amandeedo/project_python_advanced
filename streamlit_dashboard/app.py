@@ -335,7 +335,7 @@ else :
     #predictions K-Means
     preds = km.predict(df_clustering)
     #création d'une nouvelle colonne dans le dataframe df_clustering qui contient le numero de cluster pour chaque observation
-    df_clustering['cluster'] = preds
+     df_clustering.loc[:, 'cluster'] = preds
     
     #CONSTRUCTION DE LA MAP: chaque point est un hotel, la couleur répresente le cluster auquel il est attribue
     cluster_colors = {0: 'red', 1: 'green', 2: 'blue', 3: 'orange', 4:'purple'}
