@@ -329,7 +329,7 @@ elif rad == "Recommandation":
 # CLUSTERING K-MEANS
 else :
     #Creation du datafrme qui contient les variables numériques que nous allons utiliser pour le clustering
-    df_clustering=df.loc[["prix", "note", "nb_etoiles", "lat", "long"]]
+    df_clustering=df.loc[[:,"prix", "note", "nb_etoiles", "lat", "long"]]
     #constructeur K-Means et entrainement de l'algorithme
     km = KMeans(n_clusters=5,random_state=0).fit(df_clustering)
     #predictions K-Means
