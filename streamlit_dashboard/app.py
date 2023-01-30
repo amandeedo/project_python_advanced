@@ -35,7 +35,7 @@ rad=st.sidebar.radio("Navigation", ["Guide", "Map", "Statistiques", "Recommandat
 
 ### GUIDE DES ENDROITS OU ALLER A MILAN 
 if rad == "Guide":
-    image = Image.open(r"./streamlit_dashboar/Milano.jpg")
+    image = Image.open(r"./streamlit_dashboard/Milano.jpg")
     st.image(image, caption='Duomo de Milan')
 
     st.header("Quoi faire à Milan?")
