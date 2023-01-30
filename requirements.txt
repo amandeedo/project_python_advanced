@@ -33,7 +33,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.6
 dulwich==0.20.45
-st_aggrid
+streamlit-aggrid
 entrypoints==0.4
 executing==1.2.0
 fake-useragent==1.1.1
