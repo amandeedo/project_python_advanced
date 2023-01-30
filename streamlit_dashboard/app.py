@@ -23,8 +23,8 @@ from sklearn.cluster import KMeans
 
 
 # LECTURE DE LA BASE DE DONNEES 
-df_json1=pd.read_json(r"booking.json", lines=True)
-df_json2 = pd.read_json(r"booking_1.json", lines=True)
+df_json1=pd.read_json(r"/streamlit_dashboard/booking.json", lines=True)
+df_json2 = pd.read_json(r"/streamlit_dashboard/booking_1.json", lines=True)
 
 # MERGE DES DEUX FICHIERS JSON
 df = pd.concat([df_json1, df_json2], axis=0)
