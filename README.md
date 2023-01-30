@@ -17,8 +17,7 @@ INSTALLATION
 
 DEPLOIEMENT
 1. Parcourez les différents dossiers afin de voir la démarche adoptée 
-2. En attendant que l'application soit deployée, placez vous sur le dossier streamlit_dashboard dans votre invites de commande et lancez :
-streamlit run app.py afin de profiter de notre interface vous donnant accès aux hébergements disponibles à Milan entre le 4 et le 20 Août.
+2. Notre application a été déployée et est disponible à travers le lien suivant : https://amandeedo-project-python-advanced-streamlit-dashboardapp-2st3g6.streamlit.app/ 3. Cliquez sur le lien ci-dessus afin de profiter de notre interface vous donnant accès aux hébergements disponibles à Milan entre le 4 et le 20 Août.
 
 BONUS : Un guide des lieux et activités phares de Milan afin de rendre votre séjour plus agréable !
 
