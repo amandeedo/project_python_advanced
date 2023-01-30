@@ -18,7 +18,7 @@ from PIL import Image
 import plotly.graph_objects as go
 from IPython.display import HTML
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
-import streamlit-folium as sf
+import streamlit_folium as sf
 from sklearn.cluster import KMeans
 
 
