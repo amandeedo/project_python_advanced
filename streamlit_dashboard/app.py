@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 19 12:20:18 2023
-
-@author: giuli
-"""
 # Importation des librairies standards 
 import streamlit as st
 import numpy as np
@@ -23,8 +18,8 @@ from sklearn.cluster import KMeans
 
 
 # LECTURE DE LA BASE DE DONNEES 
-df_json1=pd.read_json(r"/streamlit_dashboard/booking.json", lines=True)
-df_json2 = pd.read_json(r"/streamlit_dashboard/booking_1.json", lines=True)
+df_json1=pd.read_json(r"./streamlit_dashboard/booking.json", lines=True)
+df_json2 = pd.read_json(r"./streamlit_dashboard/booking_1.json", lines=True)
 
 # MERGE DES DEUX FICHIERS JSON
 df = pd.concat([df_json1, df_json2], axis=0)
