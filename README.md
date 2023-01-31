@@ -3,7 +3,7 @@
 INTRODUCTION
 
 Dans le cadre du projet de la matière Python avancé du Master 2 MOSEF de l'Université Paris 1 Panthéon Sorbonne, nous avons eu à réaliser un projet de data science comprenant 3 grandes étapes : 
-- Une étape de webscrapping du site de notre choix (ie) booking.com que nous avons effectué avec le framework Scrappy.
+- Une étape de webscrapping du site de notre choix (ie booking.com) que nous avons effectué avec le framework Scrappy.
 - Une étape de traitement des données sous Spark.
 - Une étape de dashboarding avec streamlit.
 
